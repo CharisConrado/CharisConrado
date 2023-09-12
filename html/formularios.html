@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULARIOS</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body>
+<body >
     <nav>
         <a href="/index.html">Atrás</a>  
     </nav>
@@ -20,19 +25,19 @@
          <textarea name="mensaje" id="" cols="50" rows="2">Ingresa los datos correctamente para crear tu nueva cuenta</textarea><br><br>
         
         <label for="nombre" > Nombre completo</label>
-        <input type="text" id="nombre"> <br><br>
+        <input type="text" id="nombre" required> <br><br>
 
         <label for="email"> Correo</label>
-        <input type="email" id="email"> <br></br>
+        <input type="email" id="email" required> <br></br>
 
         <label for="numero" > Número de teléfono</label>
-        <input type="tel" id="numero"> <br><br>
+        <input type="tel" id="numero" required> <br><br>
 
         <label for="direccion" >Dirección</label>
-        <input type="text" id="direccion"> <br><br>
+        <input type="text" id="direccion" required> <br><br>
 
         <label for="region" > Region de residencia</label> 
-        <select name="region" id="region">
+        <select name="region" id="region" required>
             <option >Amazonía</option>
             <option >Andina</option>
             <option >Caribe</option>
@@ -43,17 +48,17 @@
         </select> <br><br>
         
         <label for="tdocumento" >Tipo de documento de identidad</label> 
-        <select name="tdocumento" id="tdocumento">
+        <select name="tdocumento" id="tdocumento" required>
             <option >Cedúla</option>
             <option >Tarjeta de identidad</option>
             <option >Otro</option>
         </select> <br><br>
 
         <label for="documento" >Número de documento</label>
-        <input type="text" id="documento"> <br><br>
+        <input type="text" id="documento" required> <br><br>
 
         <label for="fecha" >Fecha de nacimiento</label>
-        <input type="date" id="fecha"> <br><br>
+        <input type="date" id="fecha" required> <br><br>
 
         <label for="edad" >Edad</label>
         <input type="number" id="edad" width="1%"> <br><br>

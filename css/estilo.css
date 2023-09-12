@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+//seclector universal
+.*{
+    margin: 0;
+    padding: 0;
+}
+/*selector de etiqueta*/
+.a{
+    margin-left: 50px;
+    color: rgb(217, 226, 43);
+}
+/*selector por id*/
+
+#option_two, #option_three{
+    color: brown;
+}
+/*selector por clase*/
+.group_option{
+    background-color: aqua;
+    margin: 5px;
+}
+.group_class{
+    padding: 10px;
+}
+/*selector por pseudoclase*/
+.group_option:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+/*selector por atributo*/
+[disabled]{
+    background-color: rgb(80, 255, 191);
+}
+/*selectores por descendentes*/
+#papá{
+    border: 2px double red;
+    border_radius: 10px;
+    margin_rigth: 100px;
+    margin_left: 100px;
+    padding: 10px;
+    box-shadow: 0px 20px 10px;
+}
+#papá .hermanos + .hermanos{
+    color: aqua;
+ 
+}
+/*selector descendente*/
+#papa a{
+    color: antiquewhite;
+}
+/*selector hijo*/
+#papa > etiqueta > a{
+    color: antiquewhite;
+}
