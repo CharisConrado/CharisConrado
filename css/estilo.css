@@ -53,3 +53,55 @@
 #papa > etiqueta > a{
     color: antiquewhite;
 }
+/*clase 19 de septiembre*/
+/*titulo para box modeñ*/
+#title_box{
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: violet;
+    tex-aling:center;
+    margin: 20px 0;
+    border: 1px dottted red;
+    border-radius:10px;
+    pading-button: 30px;
+    box-shawdow: 0px 0px 10px 1px green;
+    box-shawdow: 9px 13px 33px -12px rgba(15,14,15,0.89);
+    box-shadow: 9px 13px 33px -12px rgba(15,14,15,0.89);
+font-size: 40px;
+letter spacing:10px;
+word-spacing: 20px;
+text-transform: 30px;
+}
+
+#box_father{
+    width: 200px;
+    background-color: rgb(89, 241, 135);
+    height: 200px;
+    background-image: url(https://files.antena2.com/antena2/public/2023-06/NuevoescudodelaSeleccionColombia.jpg?VersionId=WIvJJisxDfdkz1x5NLqwi9jCfJKvsZiy);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ /*#box_model{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(131, 120, 180);
+    margin:0 auto;*/
+/*media query*/
+@media (min-width: 800px) and (max-width:1200px) {
+    
+    body{
+        background-color: red;
+    }
+    h1{
+        text-aling: center;
+    }
+}
+@media (max-width: 700px){
+      body {
+        background-image: url(https://files.antena2.com/antena2/public/2023-06/NuevoescudodelaSeleccionColombia.jpg?VersionId=WIvJJisxDfdkz1x5NLqwi9jCfJKvsZiy);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+      }
+}
